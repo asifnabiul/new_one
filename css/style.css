@@ -1,0 +1,113 @@
+body{
+
+	margin:0;
+	padding: 0;
+
+}
+
+.header{
+
+	background-color: #B3B300;
+}
+.wrapper{
+
+	width: 80%;
+	/*border:2px solid green;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+
+	width: 20%;
+	float: left ;
+	/*border:1px solid white;*/
+
+
+}
+.menu{
+
+	width: 70%
+	/*border:1px solid white;*/
+	float: right;
+	margin-top: 75px;
+
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	
+}
+.menu ul a{
+	text-decoration: none;
+	text-decoration: bold;
+	color: black;
+	padding: 0px 30px;
+	display: block;
+}
+.menu ul li:last-child a{
+
+	/*color: red;*/
+	padding-right: 0;
+
+
+}
+.body{
+
+	background-color: #FFEAE6;
+}
+.wrapper1{
+
+	width: 100%;
+	/*border:2px solid green;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.body1{
+
+	/*border: 3px solid black;*/
+	overflow:hidden;
+	min-height:50px;
+	width: 100%;
+	float: left;
+}
+.body2{
+
+	/*border: 3px solid black;*/
+	overflow:hidden;
+	min-height:50px;
+	width: 54%;
+	float: right;
+}
+.footer{
+
+	background-color: green;
+
+
+
+	
+}
+
+.wrapper2{
+	width: 100%;
+	/*border:2px solid green;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.foot{
+
+	/*border: 3px solid black;*/
+	overflow:hidden;
+	min-height:100px;
+	width: 100%;
+	float: right;
+
+
+
+
+}
